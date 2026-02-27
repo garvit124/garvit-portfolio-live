@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Github, ExternalLink, FolderGit2 } from "lucide-react";
+import Image from "next/image";
 
 const projects = [
     {
@@ -11,6 +12,7 @@ const projects = [
         github: "https://github.com/garvit124/AutoPO",
         demo: "#", // Add link if available
         featured: true,
+        image: "/Autopo.png",
     },
     {
         title: "Auto Lane Detection System",
@@ -19,6 +21,7 @@ const projects = [
         github: "https://github.com/garvit124",
         demo: "#",
         featured: false,
+        image: "/Autolane.png",
     },
     {
         title: "Big Data ETL Pipeline",
@@ -27,6 +30,7 @@ const projects = [
         github: "https://github.com/garvit124",
         demo: "#",
         featured: false,
+        image: "/ETL.png",
     }
 ];
 
@@ -60,7 +64,7 @@ export default function Projects() {
                                 <div className={`p-3 rounded-xl ${project.featured ? "bg-primary/20 text-primary-light" : "bg-navy-light text-accent"}`}>
                                     <FolderGit2 size={28} />
                                 </div>
-                                <div className="flex gap-4">
+                                <div className="flex gap-4 z-10">
                                     <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
                                         <Github size={20} />
                                     </a>
@@ -71,6 +75,18 @@ export default function Projects() {
                                     )}
                                 </div>
                             </div>
+
+                            {project.image && (
+                                <div className="relative w-full h-48 mb-6 rounded-xl overflow-hidden border border-card-border/50 group-hover:border-primary/50 transition-colors">
+                                    <Image
+                                        src={project.image}
+                                        alt={project.title}
+                                        fill
+                                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                                    />
+                                    <div className="absolute inset-0 bg-navy/40 group-hover:bg-transparent transition-colors duration-500" />
+                                </div>
+                            )}
 
                             <h3 className="text-2xl font-bold text-white mb-4 group-hover:text-primary-light transition-colors">{project.title}</h3>
                             <p className="text-gray-400 mb-8 flex-grow leading-relaxed text-sm">{project.description}</p>
