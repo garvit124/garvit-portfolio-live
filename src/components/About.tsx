@@ -7,7 +7,7 @@ const aboutHighlights = [
     {
         icon: <Database className="text-primary-light" size={24} />,
         title: "Big Data Analytics",
-        desc: "Expertise cultivated at CDAC Kharghar, focusing on large-scale data processing.",
+        desc: "Specialized in large-scale data processing and engineering.",
     },
     {
         icon: <Cloud className="text-accent" size={24} />,
@@ -50,7 +50,7 @@ export default function About() {
                         className="lg:col-span-6 space-y-6 text-gray-300 text-lg leading-relaxed"
                     >
                         <p>
-                            With a formal foundation in <strong className="text-white">Computer Science</strong> from Amity University and specialized training in <strong className="text-white">Big Data Analytics</strong> at CDAC Kharghar, I bring a robust combination of theoretical knowledge and practical engineering skills.
+                            With a formal foundation in <strong className="text-white">Computer Science</strong> from Amity University, I bring a robust combination of theoretical knowledge and practical engineering skills in <strong className="text-white">Big Data Analytics</strong>.
                         </p>
                         <p>
                             My philosophy centers around a <strong className="text-white">strong problem-solving mindset</strong>. I don&apos;t just write code; I design systems that solve complex business challenges. Whether it&apos;s constructing an AI-automated Purchase Order system utilizing LLMs or structuring massive data lakes on AWS, my goal is always efficiency and scalability.

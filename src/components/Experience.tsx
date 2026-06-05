@@ -5,23 +5,23 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
     {
+        role: "Junior Software Engineer (Data / SQL)",
+        company: "INTELLIOZ SOLUTIONS INDIA PVT LTD",
+        period: "April 2025 - Present",
+        description: [
+            "Worked with SQL (MySQL/PostgreSQL) to manage data and support application requirements.",
+            "Wrote SQL queries for data retrieval, updates, and basic data processing tasks.",
+            "Supported backend systems by handling data operations and ensuring data accuracy.",
+        ],
+    },
+    {
         role: "Junior Python Developer Intern",
         company: "BIZINNOVATIV SOFTWARE",
-        period: "2023 - 2024",
+        period: "Aug 2024 - Sept 2024",
         description: [
             "Designed & optimized 10+ MySQL databases to handle large-scale data queries.",
             "Improved overall system architecture for better scalability and performance.",
             "Enhanced backend connectivity ensuring flawless execution for 100+ daily transactions.",
-        ],
-    },
-    {
-        role: "Python Development Intern",
-        company: "NEXT24TECH",
-        period: "2022 - 2023",
-        description: [
-            "Built 5+ comprehensive GUI applications utilizing Tkinter and backend logic.",
-            "Integrated backend MySQL database systems ensuring robust data persistence and retrieval.",
-            "Collaborated with cross-functional teams to translate requirements into technical solutions.",
         ],
     },
 ];

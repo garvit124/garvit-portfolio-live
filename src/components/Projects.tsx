@@ -8,7 +8,7 @@ const projects = [
     {
         title: "AutoPO – AI Automated Purchase Order System",
         description: "Built an autonomous AI system designed for end-to-end PO processing featuring real-time event detection, LLM-powered decision automation, and a zero manual intervention workflow.",
-        tech: ["Python", "PostgreSQL", "LLMs (Qwen)", "NLP", "PaddleOCR", "AWS", "Power BI", "Docker", "Flask"],
+        tech: ["Python", "SQL", "PostgreSQL", "Agentic AI", "LLMs (Qwen)", "NLP", "PaddleOCR", "AWS", "Power BI", "Docker", "Flask"],
         github: "https://github.com/garvit124/AutoPO",
         demo: "#", // Add link if available
         featured: true,
@@ -17,7 +17,7 @@ const projects = [
     {
         title: "Auto Lane Detection System",
         description: "Real-time lane detection software pipeline utilizing advanced computer vision techniques, perspective transformation, and lane curvature estimation for dynamic lighting environments.",
-        tech: ["OpenCV", "YOLO", "CNN", "PyTorch", "Streamlit"],
+        tech: ["OpenCV", "YOLO", "CNN", "PyTorch", "Streamlit", "MySQL/PostgreSQL", "NumPy"],
         github: "https://github.com/garvit124",
         demo: "#",
         featured: false,
@@ -26,7 +26,7 @@ const projects = [
     {
         title: "Big Data ETL Pipeline",
         description: "Scalable enterprise ETL architecture engineered with automated ingestion, monitoring, and robust cloud-native big data solutions.",
-        tech: ["PySpark", "AWS (S3, Glue, Lambda, CloudWatch)", "Tableau"],
+        tech: ["Python", "PySpark", "AWS (S3, Glue, Lambda, CloudWatch, SNS, VPC)", "Tableau"],
         github: "https://github.com/garvit124",
         demo: "#",
         featured: false,

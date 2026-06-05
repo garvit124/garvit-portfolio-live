@@ -24,18 +24,7 @@ export default function CertificationsEducation() {
                     </motion.div>
 
                     <div className="space-y-8">
-                        <motion.div
-                            initial={{ opacity: 0, y: 20 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: 0.1 }}
-                            className="glass p-8 rounded-2xl relative overflow-hidden group hover:border-primary/50 transition-colors"
-                        >
-                            <div className="absolute top-0 left-0 w-1 h-full bg-primary group-hover:bg-primary-light transition-colors" />
-                            <span className="text-accent text-sm font-bold tracking-wider mb-2 block">2025 - 2026</span>
-                            <h3 className="text-xl font-bold text-white mb-1">PG Diploma in Big Data Analytics</h3>
-                            <p className="text-gray-400">CDAC Kharghar</p>
-                        </motion.div>
+
 
                         <motion.div
                             initial={{ opacity: 0, y: 20 }}
@@ -72,6 +61,7 @@ export default function CertificationsEducation() {
                             "AWS Academy Graduate – Data Engineering",
                             "AWS Academy Graduate – Generative AI Foundations",
                             "AWS Academy Graduate – Cloud Foundations",
+                            "Google Cloud Platform for Beginners – Udemy",
                             "Python Programming Certification"
                         ].map((cert, index) => (
                             <motion.div
@@ -108,7 +98,7 @@ export default function CertificationsEducation() {
                             </li>
                             <li className="flex gap-3 text-gray-400">
                                 <span className="text-primary-light mt-1.5">•</span>
-                                <span>Communication Leader – CDAC Kharghar</span>
+                                <span>Volunteer – Debangshu Care Club Assam Foundation</span>
                             </li>
                         </ul>
                     </motion.div>

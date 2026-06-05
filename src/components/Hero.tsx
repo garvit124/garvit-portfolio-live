@@ -48,7 +48,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.2 }}
                         className="text-lg text-gray-400 leading-relaxed max-w-xl"
                     >
-                        I am a passionate and detail-oriented Data Analyst and aspiring Data Engineer with a strong foundation in Big Data technologies, cloud platforms, and AI/ML systems. As a recent Computer Science graduate with a PG Diploma in Big Data Analytics, I have built scalable ETL pipelines, AI-powered automation systems, and real-time analytics solutions. I enjoy transforming complex data into meaningful insights and production-ready solutions that solve real-world business problems.
+                        I am a professional and detail-oriented Data Analyst and Data Engineer with experience in SQL, Python, and AWS. As a Computer Science graduate, I have built scalable ETL pipelines, AI-powered automation systems, and real-time analytics solutions. I enjoy transforming complex data into meaningful insights and production-ready solutions that solve real-world business problems.
                     </motion.p>
 
                     <motion.div
